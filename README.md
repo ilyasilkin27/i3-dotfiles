@@ -34,3 +34,15 @@
 2. ```cd scarlet27-i3-dots```
 3. Install dependncies using **yay** and **pacman**
 4. Copy configs from **dot-config** to ~/.config
+
+## Bypassing RKN Blocks (Discord && YouTube) using [zapret](https://github.com/bol-van/zapret/tree/master)
+
+1. Follow the [quick guide](https://github.com/bol-van/zapret/blob/master/docs/quick_start.txt) to install everything.
+2. Skip the `blockcheck.sh` step.
+3. Go [here](https://github.com/bol-van/zapret/discussions/475#discussioncomment-10926033).
+4. Copy the necessary modules into the appropriate directories:
+
+- **10-inherit-nfqws**: **/opt/zapret/init.d/sysv/custom.d**
+- **50-discord**: **/opt/zapret/init.d/sysv/custom.d**
+- **config**: **/opt/zapret**
+- **zapret-hosts-user.txt**: **/opt/zapret/ipset**
