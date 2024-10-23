@@ -28,7 +28,7 @@
 - Rofi Power Menu
 - Yay
 
-### Installation
+## Installation
 
 1. ```git clone git@github.com:ilyasilkin27/scarlet27-i3-dots.git ~/```
 2. ```cd scarlet27-i3-dots```
